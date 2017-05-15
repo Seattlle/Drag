@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width:600px;
+            height:600px;
+            margin:50px auto;
+            border:3px solid #000;
+        }
+        .item{
+            width:50px;
+            height:50px;
+            background-color:#f32a4c;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="item"></div>
+    </div>
+    <script src="Drag.js"></script>
+    <script>
+        var item=Drag('.item',true);
+    </script>
+</body>
+</html>
